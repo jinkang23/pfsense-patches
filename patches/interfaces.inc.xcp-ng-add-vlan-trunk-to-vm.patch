@@ -1,5 +1,5 @@
---- interfaces.inc.org	2020-03-28 13:14:13.586000000 -0500
-+++ interfaces.inc	2020-03-28 13:16:27.827531000 -0500
+--- /etc/inc/interfaces.inc.org	2020-03-28 13:14:13.586000000 -0500
++++ /etc/inc/interfaces.inc	2020-03-28 13:16:27.827531000 -0500
 @@ -6770,6 +6770,10 @@
  	if (substr($iface, 0, 4) == "lagg") {
  		return true;
